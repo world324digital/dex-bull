@@ -1,4 +1,4 @@
-import { bsc, fantomOpera, avalandche } from '@pancakeswap/wagmi'
+import { fantomOpera, avalandche } from '@pancakeswap/wagmi'
 import { mainnet, arbitrum, optimism, polygon } from 'wagmi/chains'
 
 // Chain Id is defined by Stargate
@@ -7,11 +7,6 @@ const stargateNetowrk = [
     chainId: 1,
     name: 'Ethereum',
     chain: mainnet,
-  },
-  {
-    name: 'BNB Chain',
-    chainId: 2,
-    chain: bsc,
   },
   {
     chainId: 9,
